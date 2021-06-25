@@ -1,0 +1,223 @@
+body {
+    background-color: #fff;
+    margin: 0;
+    font-family: SuecaSlab, Georgia, serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #E61F62;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: 50px;
+}
+
+.header {
+    background-color: #fff;
+    font-family: Arial, 'sans-serif';
+    font-size: 12px;
+    font-weight: bold;  
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0%;
+    clear: both;
+    z-index: 2;
+}
+
+.button1 {
+    border: 1px solid #f2f2f2;
+    border-radius: 10%;
+    color: #000;         /*color del texto*/
+    text-transform:uppercase; 
+    background: #f2f2f2;
+    padding: 10px 15px 10px 15px;
+    margin: 15px;
+    float: left;
+    transition: color .5s;
+}
+
+.button2 {
+    border: 1px solid #f2f2f2;
+    border-radius: 10%;
+    color: #000;
+    text-transform:uppercase; 
+    background: #f2f2f2;
+    padding: 10px 15px 10px 15px;
+    margin: 15px 260px 15px 10px;
+    float: left;
+    transition: color .5s;
+}
+
+.button1:hover, .button2:hover {          /*hover no funka*/
+    color: #008dff;
+}
+
+.titulo {
+    margin-top: 18px;
+    max-height: 32px;
+    float: left;
+}
+
+.button3 {
+    border: 1px solid #ccc;
+    border-radius: 10%;
+    color: #000;
+    text-transform:uppercase; 
+    background-color: #ffff24;
+    padding: 10px 15px 10px 15px;
+    margin: 15px 10px 15px 250px;
+    float: left;
+    transition: background-color .5s;
+    transition: color .5s;
+}
+
+.button3:hover {
+    background-color: #000;
+    color: #fefefe;
+}
+
+.button4 {
+    border: 1px solid #0074c4;
+    border-radius: 10%;
+    color: #0074c4;
+    text-transform:uppercase; 
+    background: #fff;
+    padding: 10px 15px 10px 15px;
+    margin: 15px 10px 15px 10px;
+    float: left;
+    transition: background-color .4s;
+    transition: color .4s;
+    transition: border .4s;
+}
+
+.button4:hover {
+    background-color: #008dff;
+    border: #008dff;
+    color: #fefefe;
+}
+
+.ul1 {
+    height: 24px;
+    margin-left: 12px;
+    padding: 0;
+    list-style-type: none;    /* saca los iconos por defapult de la ul*/
+    position: relative;
+    top: 10px;
+    clear: both;
+}
+
+.lista1header {    
+    color: #fff;
+    font-family: inherit;   /*lo copie de la web de ohlala, nose que onda pero creo que funka*/
+    font-size: 14px;
+    float: left;
+    padding: 5px;
+    margin-top: 8px;  /*hay que tocar aca para bajar el texto*/
+}
+
+.ul2 {
+    height: 90px;
+    margin-left: 15px;
+    padding: 0;
+    list-style-type: none;   
+}
+
+.logoohlala {
+    max-height: 90px;
+    margin-top: 32px;
+    margin-right: 18px;
+    float: left;
+}
+
+.lista2header {
+    color: #fff;
+    font-size: 20px;
+    float: left;
+    list-style-type: none;   
+    padding: 8px;
+    margin-top: 82px;
+}
+
+li:hover{
+    opacity: 0.9;
+}
+
+article {
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 66px;
+    z-index: 1;
+}
+
+h1 {
+    letter-spacing: -1px;
+    font-size: 25px;
+    font-weight: bold;  
+    margin: 0 0 8px 0;
+    width: 90%;
+    color: #272727;
+}
+
+.autor {
+    font-size: 15px;
+    font-weight: bold;  
+    font-family: Arial, 'sans-serif';
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.fecha {
+    font-size: 14px;
+    font-family: Arial, 'sans-serif';
+    color: #5A5A5A;
+    margin-top: 8px;
+}
+
+.noticiagrande1 {
+    float: left;
+    width: 48%;
+    margin-left: 15px;
+    margin-right: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.noticiagrande2 {
+    float: left;
+    width: 48%;
+    margin-left: 15px;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.imagennoticiagrande1 {
+    max-width: 100%;
+    border: 1px solid #ccc;
+}
+
+.imagennoticiagrande2 {
+    max-width: 119%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* falta agregar: ver si se puede sacar el hover del logo ohlala
+                  ver como se puede acomodar la segunda imagen sin tener que recortarla.
+                  se podran poner los iconos de buscar e secciones?
+                  cambio de colores de .header cuando posion es 0
+                  --
+
+
+
+*/
+
+.xxx {
+    height: 1000px;
+}
