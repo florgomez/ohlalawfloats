@@ -205,18 +205,7 @@ h1 {
 .imagennoticiagrande2 {
     max-width: 119%;
     border: 1px solid #ccc;
-    box-sizing: border-box;
 }
-
-/* falta agregar: ver si se puede sacar el hover del logo ohlala
-                  ver como se puede acomodar la segunda imagen sin tener que recortarla.
-                  se podran poner los iconos de buscar e secciones?
-                  cambio de colores de .header cuando posion es 0
-                  --
-
-
-
-*/
 
 .xxx {
     height: 1000px;
